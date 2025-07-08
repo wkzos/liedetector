@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+
+video {
+  width: 80%;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
