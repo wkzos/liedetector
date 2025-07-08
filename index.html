@@ -4,9 +4,20 @@
   <meta charset="UTF-8" />
   <title>이미지 감지 시스템</title>
   <style>
-    body { text-align: center; margin-top: 40px; font-family: sans-serif; }
-    video { width: 80%; border: 1px solid gray; }
-    button { padding: 10px 20px; margin-top: 20px; }
+    body {
+      text-align: center;
+      margin-top: 40px;
+      font-family: sans-serif;
+    }
+    video {
+      width: 80%;
+      border: 1px solid gray;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -14,8 +25,10 @@
   <button id="shareBtn">화면 공유 시작</button><br/>
   <video id="screenVideo" autoplay muted playsinline></video>
 
-  <!-- OpenCV.js CDN -->
+  <!-- ✅ OpenCV.js CDN 불러오기 -->
   <script async src="https://docs.opencv.org/4.x/opencv.js" onload="onOpenCvReady();"></script>
+
+  <!-- ✅ 사용자 스크립트 -->
   <script src="script.js"></script>
 </body>
 </html>
